@@ -7,7 +7,7 @@ build:
     docker: {}
   tagPolicy:
     envTemplate:
-      template: '{{.DOCKER_REGISTRY}}//axelbodo/go-demo-6:{{.VERSION}}'
+      template: '{{.DOCKER_REGISTRY}}/axelbodo/go-demo-6:{{.VERSION}}'
   local: {}
 deploy:
   kubectl: {}
